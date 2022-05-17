@@ -1,0 +1,51 @@
+html , body{
+    background-color: rgb(160, 89, 226);
+    align-items: center;
+    text-align: center;
+    direction: ltr;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+input{
+    
+    margin-top: 20px;
+    align-items: center;
+    text-shadow: black;
+    border: solid 1.5px #D3D3D3;
+    
+
+}
+.btn{
+    background-color: rgb(181, 114, 245) ;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+a{
+    color: rgb(181, 114, 245);
+    text-decoration: none;
+}
+.container{
+    margin: 30px auto;
+    
+}
+.form-control{
+    width: 20rem;
+    box-shadow: purple;
+    border-radius: 100px;
+}
+.card{
+    width: 30rem;
+    height: 32rem;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+
