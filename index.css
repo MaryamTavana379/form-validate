@@ -2,8 +2,8 @@ html , body{
     background-color: rgb(160, 89, 226);
     align-items: center;
     text-align: center;
-    direction: ltr;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    direction: rtl;
+    font-family: 'Lalezar', cursive;
     
     display: flex;
     justify-content: center;
@@ -57,11 +57,31 @@ a{
 
 
 
-/* @media screen and (max-width: 1326px) {
+
+@media only screen and (max-width: 1024px ) and (min-width: 321px)  {
     .card{
-       background-color: black;
-       width:30px ;
+        margin: 1px;
+       width:20rem ;
+       height: 30rem;
+       padding: 0%;
 
     }
+    .form-control{
+        width: 14rem;
+    }
     
-} */
+}
+
+@media screen and (max-width: 320px )  {
+    .card{
+        margin: 1px;
+       width:18rem ;
+       height: 30rem;
+       padding: 0%;
+
+    }
+    .form-control{
+        width: 14rem;
+    }
+    
+}
